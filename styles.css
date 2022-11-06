@@ -1,0 +1,260 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("images\\477cdd4fce720ccfbefb65f39f3c246d.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 60%;
+    background-color: #DEF5E5;
+}                                                       
+.Top{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background-color: #e0144c;
+    /* border-radius: 2%; */
+    height: 60px;
+    margin-top: 0;
+    border-color: black;
+}                                                          
+.left{
+    display:inline-block;
+    position: fixed;
+    left: 2px;
+    top: 2%;
+    margin-left: 2.5%;
+    width: 10%;
+    height: 10%;
+}                                                      
+img{
+    height: 150px;
+}                                                      
+.center{
+    display: inline-block;
+    width: 100%;
+    font-size: large;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0;
+}                                                      
+.navbar{
+    display: inline-block;
+    width: 65%;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+    text-align: center;
+}                                                     
+.navbar li{
+    display: inline;
+    width: 22%;
+}                                                    
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    margin-left:11%;
+}                                                   
+.navbar li a:hover{
+    color: #252324;
+}                                                  
+.slogan{
+    padding-top: 4%;
+    margin:auto;
+    width: 65%;
+    text-align:center;
+    font-size: 300%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 7px 15px;
+    color: red;
+}                                                        
+.start{
+    margin-bottom: 1%;
+}                                                    
+.Top2{
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 700%;
+    padding-top: 2%;
+    text-shadow: 3px 3px 5px;
+    color: #e0144c;
+}                                                       
+.box{
+    width: 85%;
+    margin: auto;
+    margin-top: 5%;
+} 
+.box img{
+    width: 100%;
+}                                                    
+.box p{
+    border-radius: 10px;
+    width: 35%; 
+    margin:3% 3%;
+    padding:5% 4%;
+    display: inline-block;
+    box-shadow: 1px 7px 33px 3px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-right: red 4px solid;
+    border-bottom: red 4px solid;
+    background-image: url("images\\image.jpg");
+    color: aqua;
+}                                                   
+.box p:hover{
+    background-color: #FFF9D7;
+}                                                  
+button{
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top:10%;
+    color: rgb(125, 134, 139);
+    background-color: white;
+    height: 40px;
+}                                               
+button:hover{
+    background-color: rgb(241, 218, 67);
+}                                             
+.equip{
+    font-size: 150%;
+    font-family: 'Cairo', sans-serif;
+}                                                  
+.img1{
+    width: 100%;
+    border-radius: 10px;
+}                                                 
+.explore{
+    text-align: right;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 5%;
+}                                                           
+.explore p a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}                                                          
+.explore p a:hover{
+    text-decoration:underline;
+}                                                           
+.test{
+    font-family: 'Simonetta', cursive;
+    text-align: center;
+    font-size: 300%;
+    text-decoration: solid;
+    color: red;
+    border: red 3px solid;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%; 
+    transform: translateX(-50%);
+    background-color: azure;
+    border-radius: 10px;
+}                                                        
+.testimonials{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}                                                         
+.testimonials p{
+    width: 30%;
+    margin-right: 1%;
+    display: inline-block;
+    box-shadow: 0px 4px 60px 11px;
+    border-radius: 10px;
+    padding: 4% 1%;
+    text-align: center;
+    margin-bottom: 4%;
+    background-color: rgb(229, 229, 229);
+}                                                           
+.feedback{
+    width: 80%;
+    margin: auto;
+    margin-bottom:6%;
+    padding: 4% 5%;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    font-family: 'Simonetta', cursive;
+    color: white;
+    background-color: rgb(241, 218, 67);
+} 
+.feedback h1{
+    font-size: 550%;
+    margin-bottom: 0;
+}                                                         
+.feed1{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 470%;
+    margin-top: 0;
+}  
+.feed1-input{
+    justify-content: center;
+    text-align: center;
+} 
+.option{
+    font-size: 190%;
+}                                                   
+.feed2{
+    padding-top: 5%;
+    font-size: 470%;
+    padding-bottom: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}                                                               
+.Sub input{
+    background-color:aliceblue;
+    border-radius: 5px;
+    width: 10%;
+}                                                          
+footer{
+    background-color: black;
+    color: white;
+}                                                            
+.back{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: rgb(55, 54, 54);
+    padding: 0.5%;
+}                                                         
+.back:hover{
+    color: rgb(194, 194, 194);
+}                                                      
+.end{
+    padding: 0.5% 5%;
+    text-align: right;
+    border-top: 1px solid white;
+}                                                              
+.f_mid{
+    padding: 1.5% 2%;
+}                                                               
+.f_mid ul{
+    padding-left: 10%;
+    display: inline-block;
+    padding-bottom: 5%;
+}                                                      
+.f_mid ul li{
+    list-style: none;
+    padding-bottom: 5%;
+}                                                          
+.f_mid ul li a{
+    color: white;
+    text-decoration: none;
+}                                                          
+.f_mid ul li a:hover{
+    text-decoration: underline;
+}                                                      
+.f_mid p{
+    text-align: right;
+    width: 30%;
+    margin-left: 65%;
+    padding-right: 5%;
+}
